@@ -10,29 +10,101 @@
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
-
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="lib/slick-1.8.1/slick/slick.css">
     <title>DreamMusic</title>
 </head>
 <body>
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-2 left-panel">
+        <div class="col-lg-3 left-panel">
             <div class="logo">
                 <div class="logo">
-                <img src="img/icons8-пластинка-64.png" alt="logo">
-                <h1 class="display-4">DreamMusic</h1>
+                    <img src="img/icons8-пластинка-64.png" alt="logo">
+                    <h1>DreamMusic</h1>
                 </div>
                 <ul>
-                    <li><a href=#"">Любимые треки</a></li>
-                    <li><a href="#">Плейлисты</a></li>
-                    <li><a href="#">Альбомы</a></li>
-                    <li><a href="#">Исполнители</a></li>
-                    <li><a href="#">Подкасты</a></li>
+
+                    <li><a href=#""><i class="fa fa-heart-o" aria-hidden="true"></i>Любимые треки</a></li>
+                    <li><a href="#"><i class="fa fa-list" aria-hidden="true"></i>Плейлисты</a></li>
+                    <li><a href="#"><i class="fa fa-music" aria-hidden="true"></i>Альбомы</a></li>
+                    <li><a href="#"><i class="fa fa-address-card-o" aria-hidden="true"></i>Исполнители</a></li>
+                    <li><a href="#"><i class="fa fa-play" aria-hidden="true"></i>Подкасты</a></li>
                 </ul>
-        </div>
             </div>
-            <div class="col-lg-10 content"></div>
+        </div>
+        <div class="col-lg-9 content">
+            <div class="top-panel">
+
+                <div class="search">
+                    <input type="text" placeholder="Поиск">
+                </div>
+
+                <div class="user">
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="content-block">
+                <div class="responsive slick-arrow">
+                    <div>
+                        <img src="img/item2.jpg" class="rounded-circle" alt=" ">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                    <div>
+                        <img src="img/item3.jpg" class="rounded-circle" alt=" ">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                    <div>
+                        <img src="img/item4.jpg" class="rounded-circle" alt=" ">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                    <div>
+                        <img src="img/item5.jpg" class="rounded-circle" alt=" ">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                    <div>
+                        <img src="img/item6.jpg" class="rounded-circle" alt="">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                    <div>
+                        <img src="img/item7.jpg" class="rounded-circle" alt="">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                    <div><img src="img/item8.jpg" class="rounded-circle" alt="">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p></div>
+                    <div>
+                        <img src="img/item9.jpg" class="rounded-circle" alt="">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                    <div>
+                        <img src="img/item10.jpg" class="rounded-circle" alt="">
+                        <a href="#">Nederlands hits</a>
+                        <p>20000 подписчиков</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
     </div>
 </div>
 
@@ -47,5 +119,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+<script src="lib/slick-1.8.1/slick/slick.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
